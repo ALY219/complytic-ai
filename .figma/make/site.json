@@ -1,0 +1,10 @@
+{
+  "description": "Provides AI startups with fast, async compliance audits and investor-ready reports to ensure EU AI Act readiness without time-consuming calls.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
