@@ -21,10 +21,12 @@ function Nav() {
         <img
           src={logo}
           alt="Complytic AI — powered by GrowthFlow AI"
-          className="h-9 w-auto object-contain"
+          className="h-11 w-auto object-contain mix-blend-multiply"
         />
         <a
-          href="#gap-analysis"
+          href="https://tally.so/r/2EY8jp"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-sm font-medium bg-[#1E3A5F] text-white px-4 py-2 rounded-md hover:bg-[#162d4a] transition-colors"
         >
           Free Gap Analysis
@@ -57,7 +59,9 @@ function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 items-start">
           <a
-            href="#gap-analysis"
+            href="https://tally.so/r/2EY8jp"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-[#1E3A5F] text-white text-sm font-medium px-6 py-3.5 rounded-md hover:bg-[#162d4a] transition-colors"
           >
             Get Your Free 15-Point Gap Analysis
@@ -214,41 +218,14 @@ function CtaSection() {
           Free 15-point gap analysis. 48-hour turnaround. No sales calls.
         </p>
 
-        <form
-          onSubmit={(e) => e.preventDefault()}
-          className="flex flex-col gap-3 max-w-md mx-auto"
+        <a
+          href="https://tally.so/r/2EY8jp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#1E3A5F] text-white text-sm font-medium px-8 py-3.5 rounded-md hover:bg-[#162d4a] transition-colors"
         >
-          <input
-            type="text"
-            placeholder="Your name"
-            className="w-full border border-[#E2E8F0] rounded-md px-4 py-3 text-sm text-[#1A202C] placeholder-[#A0AEC0] focus:outline-none focus:border-[#1E3A5F] focus:ring-1 focus:ring-[#1E3A5F] transition-colors"
-          />
-          <input
-            type="email"
-            placeholder="Work email"
-            className="w-full border border-[#E2E8F0] rounded-md px-4 py-3 text-sm text-[#1A202C] placeholder-[#A0AEC0] focus:outline-none focus:border-[#1E3A5F] focus:ring-1 focus:ring-[#1E3A5F] transition-colors"
-          />
-          <input
-            type="text"
-            placeholder="Company name"
-            className="w-full border border-[#E2E8F0] rounded-md px-4 py-3 text-sm text-[#1A202C] placeholder-[#A0AEC0] focus:outline-none focus:border-[#1E3A5F] focus:ring-1 focus:ring-[#1E3A5F] transition-colors"
-          />
-          <select defaultValue="" className="w-full border border-[#E2E8F0] rounded-md px-4 py-3 text-sm text-[#718096] focus:outline-none focus:border-[#1E3A5F] focus:ring-1 focus:ring-[#1E3A5F] transition-colors bg-white appearance-none">
-            <option value="" disabled>
-              Company stage
-            </option>
-            <option>Pre-seed</option>
-            <option>Seed</option>
-            <option>Series A</option>
-            <option>Series B+</option>
-          </select>
-          <button
-            type="submit"
-            className="w-full bg-[#1E3A5F] text-white text-sm font-medium py-3.5 rounded-md hover:bg-[#162d4a] transition-colors mt-1"
-          >
-            Get Your Free Gap Analysis
-          </button>
-        </form>
+          Get Your Free Gap Analysis
+        </a>
 
         <p className="text-xs text-[#A0AEC0] mt-5">
           No spam. No sales calls. We'll reach out only with your analysis.
