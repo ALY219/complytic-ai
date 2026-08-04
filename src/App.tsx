@@ -1,5 +1,3 @@
-import logo from '@/imports/Gemini_Generated_Image_9n9bdc9n9bdc9n9b.png'
-
 export default function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-[#1A202C]">
@@ -18,11 +16,10 @@ function Nav() {
   return (
     <header className="border-b border-[#E2E8F0] bg-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <img
-          src={logo}
-          alt="Complytic AI — powered by GrowthFlow AI"
-          className="h-11 w-auto object-contain mix-blend-multiply"
-        />
+        <div className="flex items-baseline gap-2 pl-2">
+          <span className="text-[20px] font-bold text-[#1E3A5F] leading-none">Complytic AI</span>
+          <span className="text-[14px] font-normal text-[#64748B] leading-none">— powered by GrowthFlow AI</span>
+        </div>
         <a
           href="https://tally.so/r/2EY8jp"
           target="_blank"
@@ -239,11 +236,9 @@ function Footer() {
   return (
     <footer className="border-t border-[#E2E8F0] bg-[#F7FAFC] py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-        <img
-          src={logo}
-          alt="Complytic AI — powered by GrowthFlow AI"
-          className="h-10 w-auto object-contain"
-        />
+        <div>
+          <p className="text-sm font-semibold text-[#1A202C]">Complytic AI — A specialized service by GrowthFlow AI</p>
+        </div>
         <div className="text-right">
           <a
             href="mailto:aaliyan@growthflowai.site"
