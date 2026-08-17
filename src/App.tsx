@@ -7,6 +7,7 @@ export default function App() {
       <HowItWorks />
       <WhatYouGet />
       <CtaSection />
+      <ProcurementBanner />
       <Footer />
     </div>
   )
@@ -16,10 +17,7 @@ function Nav() {
   return (
     <header className="border-b border-[#E2E8F0] bg-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <div className="flex items-baseline gap-2 pl-2">
-          <span className="text-[20px] font-bold text-[#1E3A5F] leading-none">Complytic AI</span>
-          <span className="text-[14px] font-normal text-[#64748B] leading-none">— powered by GrowthFlow AI</span>
-        </div>
+        <span className="text-[20px] font-bold text-[#1E3A5F] leading-none pl-2">Complytic</span>
         <a
           href="https://tally.so/r/2EY8jp"
           target="_blank"
@@ -44,14 +42,13 @@ function Hero() {
         </div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-[#1A202C] leading-[1.1] mb-6 max-w-3xl">
-          AI Compliance Audits for{' '}
+          AI Governance & Readiness Audits for{' '}
           <span className="text-[#1E3A5F]">Autonomous Startups</span>
         </h1>
 
         <p className="text-lg sm:text-xl text-[#718096] leading-relaxed mb-10 max-w-2xl font-normal">
-          Don't let the EU AI Act or investor due diligence derail your product launch. We deliver fast,
-          async, deep-dive compliance audits and investor-ready Evidence Packs in 5 days.
-          No endless Zoom calls.
+          Don't let AI risk questionnaires block your enterprise deals or funding rounds. We deliver fast,
+          async governance audits and technical evidence packs in 5 days.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 items-start">
@@ -232,12 +229,38 @@ function CtaSection() {
   )
 }
 
+function ProcurementBanner() {
+  return (
+    <section className="bg-[#1E3A5F] py-12 px-6">
+      <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
+        <div>
+          <p className="text-white font-semibold text-lg leading-snug">
+            Stuck in procurement?
+          </p>
+          <p className="text-[#93B8D8] text-sm mt-1">
+            Ask about our Done-For-You Questionnaire Mapping — we handle vendor security and AI risk questionnaires on your behalf.
+          </p>
+        </div>
+        <a
+          href="https://tally.so/r/2EY8jp"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="shrink-0 bg-white text-[#1E3A5F] text-sm font-semibold px-6 py-3 rounded-md hover:bg-[#F7FAFC] transition-colors"
+        >
+          Ask About This Service
+        </a>
+      </div>
+    </section>
+  )
+}
+
 function Footer() {
   return (
     <footer className="border-t border-[#E2E8F0] bg-[#F7FAFC] py-10 px-6">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <p className="text-sm font-semibold text-[#1A202C]">Complytic AI — A specialized service by GrowthFlow AI</p>
+          <p className="text-sm font-semibold text-[#1A202C]">Complytic</p>
+          <p className="text-xs text-[#A0AEC0] mt-0.5">A GrowthFlow AI Company</p>
         </div>
         <div className="text-right">
           <a
