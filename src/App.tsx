@@ -37,7 +37,7 @@ function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-6">
           <span className="inline-block text-xs font-medium tracking-widest uppercase text-[#1E3A5F] border border-[#1E3A5F]/20 bg-[#1E3A5F]/5 px-3 py-1 rounded-sm">
-            EU AI Act Compliance
+            AI Governance & Readiness
           </span>
         </div>
 
@@ -164,7 +164,7 @@ function WhatYouGet() {
     },
     {
       title: 'Ready-to-Use Policy Templates',
-      description: 'Editable templates for data governance, model cards, and transparency disclosures.',
+      description: 'Editable policy templates plus engineering proof artifacts — log samples, architecture diagram templates, and API trace examples your CTO can paste into security questionnaires.',
     },
     {
       title: 'Remediation Roadmap',
@@ -206,7 +206,7 @@ function CtaSection() {
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-xs font-medium tracking-widest uppercase text-[#A0AEC0] mb-4">Get Started</p>
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-[#1A202C] mb-4">
-          Know your compliance gaps before your investors do.
+          Know your governance gaps before your investors do.
         </h2>
         <p className="text-[#718096] mb-10 leading-relaxed">
           Free 15-point gap analysis. 48-hour turnaround. No sales calls.
