@@ -242,7 +242,7 @@ function ProcurementBanner() {
           </p>
         </div>
         <a
-          href="https://tally.so/r/2EY8jp"
+          href="https://tally.so/r/BzJ9lN"
           target="_blank"
           rel="noopener noreferrer"
           className="shrink-0 bg-white text-[#1E3A5F] text-sm font-semibold px-6 py-3 rounded-md hover:bg-[#F7FAFC] transition-colors"
