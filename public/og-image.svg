@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <rect x="72" y="72" width="1056" height="486" rx="8" fill="#131A22" stroke="#232C36"/>
+  <text x="120" y="165" fill="#8B98A5" font-family="ui-monospace,monospace" font-size="24">Complytic</text>
+  <text x="120" y="285" fill="#E6EDF3" font-family="Inter,system-ui,sans-serif" font-size="58" font-weight="600">Tamper-evident execution</text>
+  <text x="120" y="360" fill="#E6EDF3" font-family="Inter,system-ui,sans-serif" font-size="58" font-weight="600">records for AI agents.</text>
+  <text x="120" y="465" fill="#8B98A5" font-family="ui-monospace,monospace" font-size="22">Open-source reference implementation</text>
+</svg>

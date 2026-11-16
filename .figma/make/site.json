@@ -1,0 +1,17 @@
+{
+  "title": "Complytic — Tamper-evident execution records for AI agents",
+  "description": "Open-source reference implementation: signed, hash-linked receipts for AI agent database writes. Verify it yourself.",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
+  "openGraph": {
+    "image": "/og-image.svg"
+  },
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
